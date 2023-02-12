@@ -7,7 +7,7 @@ let package = Package(
     name: "ContractSwift",
     dependencies: [
         .package(url: "https://github.com/kylef/Commander.git", from: "0.8.0"),
-	.package(url: "https://github.com/PoissonBallon/PathKit.git", .branch("master"))
+	.package(url: "https://github.com/anilthedeveoper/PathKit.git", .branch("master"))
     ],
     targets: [
         .target(
